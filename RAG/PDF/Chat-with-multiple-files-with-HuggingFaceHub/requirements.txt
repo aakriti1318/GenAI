@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain_community
+PyPDF2
+pypdf
+chromadb
+langchainhub
+langchain-huggingface
+faiss-cpu 
+openai
+tiktoken
