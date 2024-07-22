@@ -1,6 +1,6 @@
-# Aayu.ai Health Assistant
+# Health Assistant
 
-Aayu.ai is an AI-powered health information assistant that leverages Retrieval-Augmented Generation (RAG) to provide accurate and contextual responses to health-related queries. This application processes various types of input data, including PDFs, Excel files, and web pages, to enhance its knowledge base and provide more informed answers.
+An AI-powered health information assistant that leverages Retrieval-Augmented Generation (RAG) to provide accurate and contextual responses to health-related queries. This application processes various types of input data, including PDFs, Excel files, and web pages, to enhance its knowledge base and provide more informed answers.
 
 ## Features
 
@@ -15,7 +15,7 @@ Aayu.ai is an AI-powered health information assistant that leverages Retrieval-A
 
 ## Architecture
 
-The Aayu.ai Health Assistant is built using the following key components:
+The Health Assistant is built using the following key components:
 
 1. **Frontend**: Streamlit
 2. **Language Model**: OpenAI's GPT model (via LangChain)
@@ -87,7 +87,7 @@ def extract_text_from_url(url):
 
 ## Retrieval-Augmented Generation (RAG)
 
-The RAG process in Aayu.ai works as follows:
+The RAG process works as follows:
 
 1. Extracted text from all sources (PDFs, Excel files, web pages) is split into smaller chunks using RecursiveCharacterTextSplitter.
 2. These chunks are embedded using OpenAI's embedding model.
@@ -102,9 +102,7 @@ This approach allows the AI to provide responses that are grounded in the specif
 To install the MultiPDF Chat App, please follow these steps:
 
 1. Clone the repository to your local machine. 
-    ```
-    git clone https://github.com/aayu.ai -b aakriti
-    ```
+
 2. Install the required dependencies by running the following command:
    ```
    pip install -r requirements.txt
