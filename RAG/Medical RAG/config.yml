@@ -1,0 +1,13 @@
+local: False
+embedding_options:
+  model : 'text-embedding-ada-002'
+llm: 'gpt-4-turbo-preview' 
+db_options:
+  index_name : 'healthhack'
+splitter_options:
+  split_by_token : True 
+  chunk_size : 2000 
+  chunk_overlap : 0 
+  chunk_separators : ['\n\n', '\n', ' ']
+  clean_regex : True
+  regex_patterns : ['\n{3,}|\s{3,}|\t+']
